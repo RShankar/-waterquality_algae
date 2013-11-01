@@ -1,0 +1,110 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".ReportScreen" >
+
+<TextView
+        android:id="@+id/Text_EnteroUnit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/Text_EnteroQ"
+        android:layout_alignBottom="@+id/Text_EnteroQ"
+        android:layout_toRightOf="@+id/Text_EnteroQ"
+        android:text="mL/L"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/Text_Entero1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/Text_EnteroQ"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="28dp"
+        android:layout_marginLeft="52dp"
+        android:text="Entero"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="50sp" />
+
+    <TextView
+        android:id="@+id/Text_EnteroGeoMeanQUnit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/Text_EnteroGeoMeanQ"
+        android:layout_alignBottom="@+id/Text_EnteroGeoMeanQ"
+        android:layout_toRightOf="@+id/Text_EnteroGeoMeanQ"
+        android:text="mL/L"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+         android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/Text_GeoMean"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/Text_Entero1"
+        android:layout_alignBottom="@+id/Text_Entero1"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="57dp"
+        android:text="Geo Mean"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="50sp" />
+
+    <TextView
+        android:id="@+id/Text_Entero2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/Text_GeoMean"
+        android:layout_alignRight="@+id/Text_GeoMean"
+        android:layout_marginRight="21dp"
+        android:text="Entero"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="50sp" />
+
+    <TextView
+        android:id="@+id/Text_Location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:text="Sample Location"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="50sp" />
+
+    <TextView
+        android:id="@+id/Text_Advisory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Text_EnteroGeoMeanQ"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="121dp"
+        android:text="Advisory: No"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="50sp" />
+
+    <TextView
+        android:id="@+id/Text_EnteroGeoMeanQ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Text_Entero2"
+        android:layout_centerVertical="true"
+        android:text="0-75"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="60sp"/>
+
+    <TextView
+        android:id="@+id/Text_EnteroQ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/Text_Advisory"
+        android:layout_alignLeft="@+id/Text_Entero1"
+        android:text="0-40"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="60sp" />
+
+</RelativeLayout>

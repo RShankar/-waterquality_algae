@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Water Safe</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_map_screen">MapScreen</string>
+    <string name="title_activity_report_screen">ReportScreen</string>
+    <string name="title_activity_information_screen">InformationScreen</string>
+    <string name="title_activity_links_screen">LinksScreen</string>
+    <string name="title_activity_menu_screen">MenuScreen</string>
+    <string name="location">Location</string>
+    <string name="entero">Entero</string>
+    <string name="egeo">Entero Geo Mean</string>
+    <string name="advisory">Advisory</string>
+    <string name="beach1">Sample&#xA; Beach</string>
+    <string name="no">No</string>
+    <string name="beach3">Sample&#xA; Beach</string>
+    <string name="yes">Yes</string>
+    <string name="map">Map View</string>
+    <string name="newsfeed">News Feed</string>
+    <string name="title_activity_ok_more_info_dialog_fragment">OkMoreInfoDialogFragment</string>
+
+</resources>
