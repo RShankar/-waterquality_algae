@@ -1,0 +1,89 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/mainscreen" >
+
+    <Button
+        android:id="@+id/close"
+        android:layout_width="240dp"
+        android:layout_height="90dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="3dp"
+        android:background="@android:color/transparent"
+        android:onClick="locationBtn" />
+            
+             <ListView
+                 android:id="@+id/Listview"
+                 android:layout_width="match_parent"
+                 android:layout_height="620dp"
+                 android:layout_alignParentLeft="true"
+                 android:layout_below="@+id/close" >
+                 
+                 </ListView>
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="@android:color/transparent" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@android:color/transparent" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="105dp"
+        android:layout_height="90dp"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/close"
+        android:background="@android:color/transparent"
+        android:onClick="enteroBtn" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="93dp"
+        android:layout_height="90dp"
+        android:layout_alignBaseline="@+id/button4"
+        android:layout_alignBottom="@+id/button4"
+        android:layout_marginLeft="21dp"
+        android:layout_toRightOf="@+id/button2"
+        android:background="@android:color/transparent"
+        android:onClick="egeoBtn" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="120dp"
+        android:layout_height="90dp"
+        android:layout_above="@+id/Listview"
+        android:layout_toRightOf="@+id/button3"
+        android:background="@android:color/transparent"
+        android:onClick="advisoryBtn" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="260dp"
+        android:layout_height="180dp"
+        android:layout_above="@+id/button5"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="36dp"
+        android:background="@android:color/transparent"
+        android:onClick="buttonClicked_news" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="260dp"
+        android:layout_height="180dp"
+        android:layout_above="@+id/button6"
+        android:layout_alignRight="@+id/button4"
+        android:background="@android:color/transparent"
+        android:onClick="buttonClicked_map" />
+
+</RelativeLayout>
